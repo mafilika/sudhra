@@ -1,3 +1,39 @@
+/* ===== FLYER STYLE LOGO BLOCK ===== */
+.top-logo {
+    text-align: center;
+    padding: 20px 0 10px;
+}
+
+.logo-circle img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid #102C2E;
+    padding: 6px;
+    background: rgba(255,255,255,0.6);
+}
+
+.spa-name {
+    margin-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    color: #102C2E;
+}
+
+.spa-number {
+    font-size: 14px;
+    font-weight: 500;
+    color: #102C2E;
+    opacity: 0.8;
+}
+
+/* Adjust nav after logo */
+nav {
+    margin-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(16,44,46,0.25);
+}
 /* ===== BRAND GLOBAL ===== */
 * {
     margin: 0;
