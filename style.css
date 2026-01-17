@@ -117,6 +117,59 @@ nav a.active {
     margin-top: 10px;
     font-size: 18px;
 }
+/* ===========================
+   HIGHLIGHTS SECTION
+   =========================== */
+.highlights {
+    width: 100%;
+    padding: 70px 0;
+    background: #E3F6F7; /* soft spa aqua */
+    text-align: center;
+}
+
+/* Title */
+.highlights h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0F2D2E;
+    margin-bottom: 15px;
+}
+
+/* Description paragraph */
+.highlights p {
+    max-width: 800px;
+    margin: 0 auto 45px;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #1B4648;
+    padding: 0 15px;
+}
+
+/* highlight items container */
+.highlights .items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* each highlight */
+.highlights .item {
+    background: #fff;
+    border-radius: 14px;
+    padding: 25px 20px;
+    width: 260px;
+    min-height: 140px;
+    font-family: "Lora", serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #0F2D2E;
+    border: 1px solid rgba(15, 45, 46, 0.15);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+}
 
 /* ===== SERVICE CARD LIST ===== */
 .services {
